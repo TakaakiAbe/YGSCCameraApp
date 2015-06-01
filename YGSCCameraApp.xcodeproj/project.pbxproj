@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		153ADBA71B1B466C008E876F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 153ADBA61B1B466C008E876F /* main.m */; };
+		153ADBAA1B1B466C008E876F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 153ADBA91B1B466C008E876F /* AppDelegate.m */; };
+		153ADBAD1B1B466C008E876F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153ADBAC1B1B466C008E876F /* ViewController.m */; };
+		153ADBB01B1B466C008E876F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153ADBAE1B1B466C008E876F /* Main.storyboard */; };
+		153ADBB21B1B466C008E876F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153ADBB11B1B466C008E876F /* Images.xcassets */; };
+		153ADBB51B1B466C008E876F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153ADBB31B1B466C008E876F /* LaunchScreen.xib */; };
+		153ADBC11B1B466C008E876F /* YGSCCameraAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 153ADBC01B1B466C008E876F /* YGSCCameraAppTests.m */; };
+		15AA50D01B1B525A000BD813 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15AA50CF1B1B525A000BD813 /* AssetsLibrary.framework */; };
+		6E62347DC12AD190983157BE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 192B8518C6D2951D50F2AE80 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		153ADBBB1B1B466C008E876F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 153ADB991B1B466C008E876F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 153ADBA01B1B466C008E876F;
+			remoteInfo = YGSCCameraApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02BBFEA6BF0CEF4209AA5AF4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		153ADBA11B1B466C008E876F /* YGSCCameraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YGSCCameraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		153ADBA51B1B466C008E876F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		153ADBA61B1B466C008E876F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		153ADBA81B1B466C008E876F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		153ADBA91B1B466C008E876F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		153ADBAB1B1B466C008E876F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		153ADBAC1B1B466C008E876F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		153ADBAF1B1B466C008E876F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		153ADBB11B1B466C008E876F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		153ADBB41B1B466C008E876F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		153ADBBA1B1B466C008E876F /* YGSCCameraAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YGSCCameraAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		153ADBBF1B1B466C008E876F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		153ADBC01B1B466C008E876F /* YGSCCameraAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGSCCameraAppTests.m; sourceTree = "<group>"; };
+		15AA50CF1B1B525A000BD813 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		192B8518C6D2951D50F2AE80 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CA8AE063C30A6AD1DBCF10 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		153ADB9E1B1B466C008E876F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15AA50D01B1B525A000BD813 /* AssetsLibrary.framework in Frameworks */,
+				6E62347DC12AD190983157BE /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153ADBB71B1B466C008E876F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		153ADB981B1B466C008E876F = {
+			isa = PBXGroup;
+			children = (
+				153ADBA31B1B466C008E876F /* YGSCCameraApp */,
+				153ADBBD1B1B466C008E876F /* YGSCCameraAppTests */,
+				153ADBA21B1B466C008E876F /* Products */,
+				B7DFB03412A22313A0294A8A /* Pods */,
+				4F32A87BF412FB0D0DB80776 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		153ADBA21B1B466C008E876F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				153ADBA11B1B466C008E876F /* YGSCCameraApp.app */,
+				153ADBBA1B1B466C008E876F /* YGSCCameraAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		153ADBA31B1B466C008E876F /* YGSCCameraApp */ = {
+			isa = PBXGroup;
+			children = (
+				153ADBA81B1B466C008E876F /* AppDelegate.h */,
+				153ADBA91B1B466C008E876F /* AppDelegate.m */,
+				153ADBAB1B1B466C008E876F /* ViewController.h */,
+				153ADBAC1B1B466C008E876F /* ViewController.m */,
+				153ADBAE1B1B466C008E876F /* Main.storyboard */,
+				153ADBB11B1B466C008E876F /* Images.xcassets */,
+				153ADBB31B1B466C008E876F /* LaunchScreen.xib */,
+				153ADBA41B1B466C008E876F /* Supporting Files */,
+			);
+			path = YGSCCameraApp;
+			sourceTree = "<group>";
+		};
+		153ADBA41B1B466C008E876F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				153ADBA51B1B466C008E876F /* Info.plist */,
+				153ADBA61B1B466C008E876F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		153ADBBD1B1B466C008E876F /* YGSCCameraAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				153ADBC01B1B466C008E876F /* YGSCCameraAppTests.m */,
+				153ADBBE1B1B466C008E876F /* Supporting Files */,
+			);
+			path = YGSCCameraAppTests;
+			sourceTree = "<group>";
+		};
+		153ADBBE1B1B466C008E876F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				153ADBBF1B1B466C008E876F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F32A87BF412FB0D0DB80776 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15AA50CF1B1B525A000BD813 /* AssetsLibrary.framework */,
+				192B8518C6D2951D50F2AE80 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7DFB03412A22313A0294A8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0CA8AE063C30A6AD1DBCF10 /* Pods.debug.xcconfig */,
+				02BBFEA6BF0CEF4209AA5AF4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		153ADBA01B1B466C008E876F /* YGSCCameraApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 153ADBC41B1B466C008E876F /* Build configuration list for PBXNativeTarget "YGSCCameraApp" */;
+			buildPhases = (
+				86AD779A69E99A46A66EC582 /* Check Pods Manifest.lock */,
+				153ADB9D1B1B466C008E876F /* Sources */,
+				153ADB9E1B1B466C008E876F /* Frameworks */,
+				153ADB9F1B1B466C008E876F /* Resources */,
+				B544ADB35B6F02D72BEF34AE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YGSCCameraApp;
+			productName = YGSCCameraApp;
+			productReference = 153ADBA11B1B466C008E876F /* YGSCCameraApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		153ADBB91B1B466C008E876F /* YGSCCameraAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 153ADBC71B1B466C008E876F /* Build configuration list for PBXNativeTarget "YGSCCameraAppTests" */;
+			buildPhases = (
+				153ADBB61B1B466C008E876F /* Sources */,
+				153ADBB71B1B466C008E876F /* Frameworks */,
+				153ADBB81B1B466C008E876F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				153ADBBC1B1B466C008E876F /* PBXTargetDependency */,
+			);
+			name = YGSCCameraAppTests;
+			productName = YGSCCameraAppTests;
+			productReference = 153ADBBA1B1B466C008E876F /* YGSCCameraAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		153ADB991B1B466C008E876F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Takaaki Abe";
+				TargetAttributes = {
+					153ADBA01B1B466C008E876F = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					153ADBB91B1B466C008E876F = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 153ADBA01B1B466C008E876F;
+					};
+				};
+			};
+			buildConfigurationList = 153ADB9C1B1B466C008E876F /* Build configuration list for PBXProject "YGSCCameraApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 153ADB981B1B466C008E876F;
+			productRefGroup = 153ADBA21B1B466C008E876F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				153ADBA01B1B466C008E876F /* YGSCCameraApp */,
+				153ADBB91B1B466C008E876F /* YGSCCameraAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		153ADB9F1B1B466C008E876F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153ADBB01B1B466C008E876F /* Main.storyboard in Resources */,
+				153ADBB51B1B466C008E876F /* LaunchScreen.xib in Resources */,
+				153ADBB21B1B466C008E876F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153ADBB81B1B466C008E876F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86AD779A69E99A46A66EC582 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B544ADB35B6F02D72BEF34AE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		153ADB9D1B1B466C008E876F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153ADBAD1B1B466C008E876F /* ViewController.m in Sources */,
+				153ADBAA1B1B466C008E876F /* AppDelegate.m in Sources */,
+				153ADBA71B1B466C008E876F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153ADBB61B1B466C008E876F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153ADBC11B1B466C008E876F /* YGSCCameraAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		153ADBBC1B1B466C008E876F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 153ADBA01B1B466C008E876F /* YGSCCameraApp */;
+			targetProxy = 153ADBBB1B1B466C008E876F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		153ADBAE1B1B466C008E876F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				153ADBAF1B1B466C008E876F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		153ADBB31B1B466C008E876F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				153ADBB41B1B466C008E876F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		153ADBC21B1B466C008E876F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		153ADBC31B1B466C008E876F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		153ADBC51B1B466C008E876F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0CA8AE063C30A6AD1DBCF10 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YGSCCameraApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		153ADBC61B1B466C008E876F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02BBFEA6BF0CEF4209AA5AF4 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YGSCCameraApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		153ADBC81B1B466C008E876F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YGSCCameraAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YGSCCameraApp.app/YGSCCameraApp";
+			};
+			name = Debug;
+		};
+		153ADBC91B1B466C008E876F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YGSCCameraAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YGSCCameraApp.app/YGSCCameraApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		153ADB9C1B1B466C008E876F /* Build configuration list for PBXProject "YGSCCameraApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153ADBC21B1B466C008E876F /* Debug */,
+				153ADBC31B1B466C008E876F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		153ADBC41B1B466C008E876F /* Build configuration list for PBXNativeTarget "YGSCCameraApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153ADBC51B1B466C008E876F /* Debug */,
+				153ADBC61B1B466C008E876F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		153ADBC71B1B466C008E876F /* Build configuration list for PBXNativeTarget "YGSCCameraAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153ADBC81B1B466C008E876F /* Debug */,
+				153ADBC91B1B466C008E876F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 153ADB991B1B466C008E876F /* Project object */;
+}
